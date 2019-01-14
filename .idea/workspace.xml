@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eceb62b-7f9e-480f-bbac-89c1935ab0c2" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainbow_scrapy/spiders/spider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainbow_scrapy/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1095">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rainbow_scrapy/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+              <folding>
+                <element signature="e#193#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainbow_scrapy/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rainbow_scrapy/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/twisted/internet/defer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9570">
+              <caret line="653" selection-start-line="653" selection-end-line="653" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rainbow_scrapy/settings.py" />
+        <option value="$PROJECT_DIR$/rainbow_scrapy/items.py" />
+        <option value="$PROJECT_DIR$/rainbow_scrapy/spiders/spider.py" />
+        <option value="$PROJECT_DIR$/rainbow_scrapy/pipelines.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rainbow_scrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rainbow_scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow_scrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rainbow_scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="rainbow_scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rainbow_scrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rainbow_scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="rainbow_scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="rainbow_scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="scrapy" />
+      <option name="PARAMETERS" value="crawl rainbow" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="rainbow" type="PythonConfigurationType" factoryName="Python">
+      <module name="rainbow_scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="/usr/local/bin/scrapy" />
+      <option name="PARAMETERS" value="crawl rainbow" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eceb62b-7f9e-480f-bbac-89c1935ab0c2" name="Default" comment="" />
+      <created>1543659668704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543659668704</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50069445" side_tool="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49930555" weight="0.41939393" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/images/u=2820910415,3925353113&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2758287557,2448954330&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2005484943,2130001408&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=866865209,858379007&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=1064801309,3034019011&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=969746080,2843714140&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=323868142,4255630055&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=278179341,256479004&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=424835500,4048365369&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/spiders/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapy.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/spiders/spider" />
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/u=64103587,2894210094&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=220803116,3229405054&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=243919579,1814835857&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=338501989,1067639622&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=235673309,2837218722&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=370373064,2688831452&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4253390018,2263660462&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4226103312,2139429987&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4106748822,1616541251&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4078720294,1926118427&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4078173948,3652213172&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=4051375672,3741800431&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3865211143,2549739764&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3725411087,84388548&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3575840528,515112117&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3562927624,2966831687&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3539553379,88148159&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3501476105,2685672784&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3445608803,2970194398&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=3246462811,4012383204&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2855255465,2717952146&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2820910415,3925353113&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2758287557,2448954330&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=2005484943,2130001408&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=323868142,4255630055&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=278179341,256479004&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=424835500,4048365369&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=969746080,2843714140&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=866865209,858379007&amp;fm=26&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/u=1064801309,3034019011&amp;fm=200&amp;gp=0.jpg" />
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="24" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/venv/lib/python3.7/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9570">
+          <caret line="653" selection-start-line="653" selection-end-line="653" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/spiders/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rainbow_scrapy/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#193#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
