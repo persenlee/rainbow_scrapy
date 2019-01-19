@@ -1,11 +1,11 @@
 import scrapy
 import re
 from urllib.parse import quote
-from rainbow_scrapy.items  import  ImageItem
+from rainbow_scrapy.items import ImageItem
 import json
 
-class RainbowSpider(scrapy.Spider):
-    name = "rainbow"
+class BaiduImageSpider(scrapy.Spider):
+    name = "BaiduImageSpider"
     # start_urls = [
     #     'http://quotes.toscrape.com/page/1/',
     # ]

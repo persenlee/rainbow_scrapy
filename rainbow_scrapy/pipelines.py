@@ -27,8 +27,8 @@ class RainbowScrapyPipeline(ImagesPipeline):
 
 
 class RainbowDatabasePipeline(object):
-    insert_sql = '''insert into image(title,src,create_time,thumb_src)
-                            values('{title}','{src}','{create_time}','{thumb_src}')'''
+    insert_sql = '''insert into image(title,src,create_time,thumb_src,tags)
+                            values('{title}','{src}','{create_time}','{thumb_src}','')'''
     def __init__(self,settings):
         self.connect = None
         self.cursor = None
@@ -37,7 +37,6 @@ class RainbowDatabasePipeline(object):
 
 
     def process_item(self, item, spider):
-        if spider.name == 'rainbow':
             dt = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             sqltext = self.insert_sql.format(
                 title=pymysql.escape_string(item['title']),
