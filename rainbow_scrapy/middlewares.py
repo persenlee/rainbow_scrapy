@@ -6,6 +6,7 @@
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
 from scrapy import signals
+from rainbow_scrapy.proxy import Proxy
 
 
 class RainbowScrapySpiderMiddleware(object):
@@ -78,6 +79,10 @@ class RainbowScrapyDownloaderMiddleware(object):
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
+        proxy = Proxy.get_random_proxy()
+        if proxy is not None:
+            proxies = "http://{}".format(proxy)
+            request.meta['proxy'] = proxies
         return None
 
     def process_response(self, request, response, spider):

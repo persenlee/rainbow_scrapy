@@ -7,6 +7,7 @@
 
 import scrapy
 
+
 class ImageItem(scrapy.Item):
     title = scrapy.Field()
     src = scrapy.Field()
@@ -16,3 +17,9 @@ class ImageItem(scrapy.Item):
     md5 = scrapy.Field()
     tags = scrapy.Field()
     thumb_src = scrapy.Field()
+
+
+class WeiboUserItem(scrapy.Item):
+    id = scrapy.Field()
+    followers_count = scrapy.Field()
+    name = scrapy.Field()

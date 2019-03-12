@@ -33,8 +33,8 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.
 #CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-#COOKIES_ENABLED = False
-
+COOKIES_ENABLED = True
+COOKIES_DEBUG = True
 # Disable Telnet Console (enabled by default)
 #TELNETCONSOLE_ENABLED = False
 
@@ -52,9 +52,9 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+# DOWNLOADER_MIDDLEWARES = {
 #    'rainbow_scrapy.middlewares.RainbowScrapyDownloaderMiddleware': 543,
-#}
+# }
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -66,7 +66,8 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
    # 'rainbow_scrapy.pipelines.RainbowScrapyPipeline': 300,
-   'rainbow_scrapy.pipelines.RainbowDatabasePipeline': 300
+   'rainbow_scrapy.pipelines.RainbowDatabasePipeline': 300,
+   'rainbow_scrapy.pipelines.WeiboUserPipeline': 100
 }
 IMAGES_STORE = './images'
 MYSQL_HOST = 'localhost'
@@ -74,6 +75,7 @@ MYSQL_PORT = 3306
 MYSQL_DBNAME = 'rainbow'
 MYSQL_USER_NAME = 'root'
 MYSQL_USER_PASSWORD = '123456'
+SCRAPY_DBNAME = 'scrapy'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
@@ -94,3 +96,7 @@ MYSQL_USER_PASSWORD = '123456'
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+# Custom Setting in Project
+IP_PROXY_URL = 'http://127.0.0.1:5010'
