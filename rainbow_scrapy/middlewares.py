@@ -79,7 +79,7 @@ class RainbowScrapyDownloaderMiddleware(object):
         # - or return a Request object
         # - or raise IgnoreRequest: process_exception() methods of
         #   installed downloader middleware will be called
-        proxy = Proxy.get_random_proxy()
+        proxy = Proxy.get_proxy()
         if proxy is not None:
             proxies = "http://{}".format(proxy)
             request.meta['proxy'] = proxies
@@ -102,7 +102,12 @@ class RainbowScrapyDownloaderMiddleware(object):
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        pass
+        proxy = request.meta.get('proxy', None)
+        if proxy is not None:
+            proxy = proxy.replace('http://','')
+            Proxy.delete_proxy(proxy)
+        return request
+
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)

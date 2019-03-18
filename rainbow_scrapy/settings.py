@@ -27,7 +27,7 @@ USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/605.1.
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-#DOWNLOAD_DELAY = 3
+DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16
@@ -52,9 +52,9 @@ COOKIES_DEBUG = True
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'rainbow_scrapy.middlewares.RainbowScrapyDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+   'rainbow_scrapy.middlewares.RainbowScrapyDownloaderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -100,3 +100,4 @@ SCRAPY_DBNAME = 'scrapy'
 
 # Custom Setting in Project
 IP_PROXY_URL = 'http://127.0.0.1:5010'
+# IP_PROXY_URL = 'http://webapi.http.zhimacangku.com/getip?num=1&type=2&pro=0&city=0&yys=0&port=1&pack=43647&ts=0&ys=0&cs=0&lb=1&sb=0&pb=45&mr=2&regions='

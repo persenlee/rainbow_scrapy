@@ -41,7 +41,7 @@ class RainbowDatabasePipeline(object):
     def process_item(self, item, spider):
         if isinstance(item, ImageItem):
             if spider.name == 'WeiboImageSpider':
-                is_human = FaceDetector.is_human_in_image(item['thumb_src'])
+                is_human = FaceDetector.is_human_in_image(item['src'])
                 if(not is_human):
                     return
             dt = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
