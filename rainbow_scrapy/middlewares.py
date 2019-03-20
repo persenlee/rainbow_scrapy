@@ -92,7 +92,13 @@ class RainbowScrapyDownloaderMiddleware(object):
         # - return a Response object
         # - return a Request object
         # - or raise IgnoreRequest
-        return response
+
+        # 418 means ip is banded, so delete ip proxy ,then get new proxy to restart request
+        if response.status == 418:
+            self.delete_proxy(request)
+            return request
+        else:
+            return response
 
     def process_exception(self, request, exception, spider):
         # Called when a download handler or a process_request()
@@ -102,12 +108,14 @@ class RainbowScrapyDownloaderMiddleware(object):
         # - return None: continue processing this exception
         # - return a Response object: stops process_exception() chain
         # - return a Request object: stops process_exception() chain
-        proxy = request.meta.get('proxy', None)
-        if proxy is not None:
-            proxy = proxy.replace('http://','')
-            Proxy.delete_proxy(proxy)
+        self.delete_proxy(request)
         return request
-
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+    def delete_proxy(self, request):
+        proxy = request.meta.get('proxy', None)
+        if proxy is not None:
+            proxy = proxy.replace('http://', '')
+            Proxy.delete_proxy(proxy)
